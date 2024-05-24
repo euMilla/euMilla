@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Aplicação da fonte no corpo do documento */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    letter-spacing: 0.5px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #363434;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Estilos para as seções de conteúdo */
+section {
+    padding: 20px;
+}
+
+
+/* Estilos específicos para as classes classeum e classedois */
+.classeum {
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: brown;
+}
+
+.classedois {
+    border-radius: 20px;
+    padding: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    font-size: 1em;
+    text-decoration: rgb(130, 60, 60);
+    
+}
+
+/* Estilos para o texto */
+.texto-estilizado {
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/* Estilo para o texto com fonte do Google Fonts */
+.fonte-google {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para as imagens */
+img {
+    aspect-ratio: auto 350 / 373;
+    display: block;
+    font-size :16px;
+    font-weight:300;
+    height: auto;
+    line-height:24px;
+    margin: 0 auto;
+    max-width: 100%;
+    width:350px;
+    text-align: center;
+    }
+p {
+    text-align: center;
+}
+
+/* Estilo para os pseudoelementos */
+.classeum ::before {
+    display: block;
+    background-color: rgba(255, 0, 0, 0.5); /* Canal alpha = 0.5 */
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.classeum ::after{
+    display: block;
+    background-color: rgba(0, 0, 255, 0.3); /* Canal alpha = 0.3 */
+    padding: 5px;
+    margin-top: 10px;
+}
+/* Pseudoelementos */
+p::before {
+    font-style: italic;
+    color:rgba(153, 28, 28, 0.1); 
+}
+
+p::after {
+    font-style: italic;
+    color:rgba(195, 0, 0, 0.1);
+}
+
+/* Estilo para a seleção de texto */
+::selection {
+    background-color: #346da9; /* Amarelo */
+    color: #333;
+}
+
+
+/* Estilos para o rodapé */
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto com alpha = 0.5 */
+    color: white;/* Borda branca com alpha = 0.5 no topo */
+    padding: 10px;
+    text-align: center;
+}
+footer:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto mais escuro com alpha = 0.7 ao passar o mouse */
+}
